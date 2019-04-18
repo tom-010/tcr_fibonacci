@@ -27,6 +27,11 @@ public class FibonacciTest {
         assertEquals(2, fib(3));
     }
 
+    @Test
+    public void four_three() {
+        assertEquals(3, fib(4));
+    }
+
     // 0, 1, 2, 3, 4, 5, 6, 7
     // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 

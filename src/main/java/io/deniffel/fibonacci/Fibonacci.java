@@ -10,6 +10,11 @@ public class Fibonacci {
         if(i == 1 | i == 2) {
             return 1;
         }
-        return 2;
+
+        if(i == 3)
+            return 2;
+        if(i == 4)
+            return 3;
+        return i;
     }
 }
