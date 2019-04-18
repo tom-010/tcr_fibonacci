@@ -42,6 +42,11 @@ public class FibonacciTest {
         assertEquals(13, fib(7));
     }
 
+    @Test
+    public void largerNumber() {
+        assertEquals(377, fib(14));
+    }
+
     // 0, 1, 2, 3, 4, 5, 6, 7
     // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
