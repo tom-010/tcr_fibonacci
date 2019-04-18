@@ -11,10 +11,6 @@ public class Fibonacci {
             return 1;
         }
 
-        if(i == 3)
-            return 2;
-        if(i == 4)
-            return 3;
-        return i;
+        return fib(i-1) + fib(i-2);
     }
 }
