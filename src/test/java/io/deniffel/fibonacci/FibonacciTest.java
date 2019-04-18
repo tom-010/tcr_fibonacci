@@ -16,4 +16,9 @@ public class FibonacciTest {
     public void one_one() {
         assertEquals(1, fib(1));
     }
+
+    @Test
+    public void two_one() {
+        assertEquals(1, fib(2));
+    }
 }
