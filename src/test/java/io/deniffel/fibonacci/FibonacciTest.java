@@ -32,6 +32,11 @@ public class FibonacciTest {
         assertEquals(3, fib(4));
     }
 
+    @Test
+    public void five_five() {
+        assertEquals(5, fib(5));
+    }
+
     // 0, 1, 2, 3, 4, 5, 6, 7
     // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
